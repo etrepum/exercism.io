@@ -1,4 +1,7 @@
 language: ruby
+cache:
+  bundler: true
+  apt: true
 rvm:
   - 1.9.3
 before_script:
